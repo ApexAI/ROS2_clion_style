@@ -4,4 +4,4 @@ This repository provides CLion style settings which are as close as possible to 
 
 # Usage
 
-In CLion go to *File - Settings Repository* and add this repositroy as *Upstream URL*. Afterwards click *Merge* or *Overwrite Local*.
+In CLion go to *File - Settings Repository* and add this repository as *Upstream URL*. Afterwards click *Merge* or *Overwrite Local*.

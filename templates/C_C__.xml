@@ -1,0 +1,7 @@
+<templateSet group="C/C++">
+  <template name="for" value="for (std::size_t $INDEX$ = 0; $COPY_INDEX$ &lt; $UPPER_BOUND$; ++$COPY_INDEX$) {&#10;  $END$&#10;}" description="Indexed for(;;) loop" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="suggestIndexName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="COPY_INDEX" expression="INDEX" defaultValue="" alwaysStopAt="false" />
+    <variable name="UPPER_BOUND" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>
