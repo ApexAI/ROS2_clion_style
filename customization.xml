@@ -1,0 +1,67 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="Tool_External Tools_PCLint" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_CPPLint" is_action="true" action_type="1" position="7">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Uncrustify" is_action="true" action_type="1" position="8">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Build Current" is_action="true" action_type="1" position="9">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Test Current" is_action="true" action_type="1" position="10">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Test Coverage Current" is_action="true" action_type="1" position="11">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Doxygen" is_action="true" action_type="1" position="12">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Build All" is_action="true" action_type="1" position="13">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Test All" is_action="true" action_type="1" position="14">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <action id="Tool_External Tools_Doxygen" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Doxygen.png" />
+    <action id="Tool_External Tools_Build All" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_BuildAll.png" />
+    <action id="Tool_External Tools_Uncrustify" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Uncrustify.png" />
+    <action id="Tool_External Tools_Test Coverage Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_CoveragePkg.png" />
+    <action id="Tool_External Tools_Test Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_TestPkg.png" />
+    <action id="Tool_External Tools_CPPLint" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/CPPLint.png" />
+    <action id="Tool_External Tools_Build Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_BuildPkg.png" />
+    <action id="Tool_External Tools_PCLint" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/PCLint.png" />
+    <action id="Tool_External Tools_Test All" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_TestAll.png" />
+  </component>
+</application>
