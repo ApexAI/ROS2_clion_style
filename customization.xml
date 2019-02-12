@@ -24,7 +24,8 @@
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Lint Cmake" is_action="true" action_type="1" position="9">      <path value="root" />
+    <group value="Tool_External Tools_Uncrustify" is_action="true" action_type="1" position="10">
+      <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
@@ -74,6 +75,7 @@
     <action id="Tool_External Tools_Build Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_BuildPkg.png" />
     <action id="Tool_External Tools_PCLint" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/PCLint.png" />
     <action id="Tool_External Tools_Test All" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_TestAll.png" />
+    <action id="Tool_External Tools_Copyright" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Copyright.png" />
     <action id="Tool_External Tools_Lint Cmake" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/LintCmake.png" />
   </component>
 </application>
