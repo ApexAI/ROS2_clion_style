@@ -42,25 +42,31 @@
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Test Coverage Current" is_action="true" action_type="1" position="13">
+    <group value="Tool_External Tools_Test Current (Retest until fail)" is_action="true" action_type="1" position="13">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Doxygen" is_action="true" action_type="1" position="14">
+    <group value="Tool_External Tools_Test Coverage Current" is_action="true" action_type="1" position="14">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Build All" is_action="true" action_type="1" position="15">
+    <group value="Tool_External Tools_Doxygen" is_action="true" action_type="1" position="15">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Test All" is_action="true" action_type="1" position="16">
+    <group value="Tool_External Tools_Build All" is_action="true" action_type="1" position="16">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Test All" is_action="true" action_type="1" position="17">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
@@ -72,10 +78,11 @@
     <action id="Tool_External Tools_Test Coverage Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_CoveragePkg.png" />
     <action id="Tool_External Tools_Test Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_TestPkg.png" />
     <action id="Tool_External Tools_CPPLint" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/CPPLint.png" />
+    <action id="Tool_External Tools_Lint Cmake" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/LintCmake.png" />
     <action id="Tool_External Tools_Build Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_BuildPkg.png" />
     <action id="Tool_External Tools_PCLint" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/PCLint.png" />
     <action id="Tool_External Tools_Test All" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_TestAll.png" />
     <action id="Tool_External Tools_Copyright" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Copyright.png" />
-    <action id="Tool_External Tools_Lint Cmake" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/LintCmake.png" />
+    <action id="Tool_External Tools_Test Current (Retest until fail)" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/RetestUntilFail.png" />
   </component>
 </application>

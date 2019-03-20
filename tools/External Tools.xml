@@ -76,7 +76,7 @@
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
     <filter>
-      <option name="NAME" />
+      <option name="NAME" value="No name" />
       <option name="DESCRIPTION" />
       <option name="REGEXP" value=".*$FILE_PATH$:$LINE$\].*" />
     </filter>
