@@ -72,8 +72,8 @@
   <tool name="PCLint" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="ament_pclint" />
-      <option name="PARAMETERS" value="$FilePath$" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+      <option name="PARAMETERS" value="--check-headers --package-root $FileParentDir$ $FileParentDir$" />
+      <option name="WORKING_DIRECTORY" value="$FileParentDir$" />
     </exec>
     <filter>
       <option name="NAME" value="No name" />
