@@ -1,5 +1,5 @@
 <code_scheme name="Default">
-  <option name="RIGHT_MARGIN" value="99" />
+  <option name="RIGHT_MARGIN" value="120" />
   <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
   <CMakeCodeStyleSettings>
     <option name="FORCE_COMMANDS_CASE" value="1" />
