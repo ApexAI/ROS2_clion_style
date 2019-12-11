@@ -6,11 +6,3 @@ This repository provides CLion style settings which are as close as possible to 
 
 In CLion go to *File - Settings Repository* and add this repository as *Upstream URL*. Afterwards click *Merge* or *Overwrite Local*.
 
-# Contributing
-
-## Adding Icons
-
-The existing icons in this repository were made with http://www.xiconeditor.com/.
-
-The color of the text is (0/39/255) RGB. As CLion only supports PNG icons the created icon needs to be converted from 
-`.ico` to `.png`. https://convertico.com/ico-to-png/ worked for this task.
