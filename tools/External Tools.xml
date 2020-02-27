@@ -81,6 +81,18 @@
       <option name="REGEXP" value=".*$FILE_PATH$:$LINE$\].*" />
     </filter>
   </tool>
+  <tool name="VectorCAST" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="vcastqt" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$Projectpath$/../test/vcast" />
+    </exec>
+    <filter>
+      <option name="NAME" value="No name" />
+      <option name="DESCRIPTION" />
+      <option name="REGEXP" value=".*$FILE_PATH$:$LINE$\].*" />
+    </filter>
+  </tool>
   <tool name="Doxygen" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="_apex_clion_doxygen" />
