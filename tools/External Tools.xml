@@ -81,6 +81,18 @@
       <option name="REGEXP" value=".*$FILE_PATH$:$LINE$\].*" />
     </filter>
   </tool>
+  <tool name="PCLint (entire package)" description="Run PCLint on the currently loaded package" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="ctest" />
+      <option name="PARAMETERS" value="-V -L pclint" />
+      <option name="WORKING_DIRECTORY" value="$CMakeCurrentBuildDir$" />
+    </exec>
+    <filter>
+      <option name="NAME" value="" />
+      <option name="DESCRIPTION" value="" />
+      <option name="REGEXP" value=".*$FILE_PATH$:$LINE$\].*" />
+    </filter>
+  </tool>
   <tool name="Doxygen" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="_apex_clion_doxygen" />
