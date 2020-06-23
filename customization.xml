@@ -1,72 +1,196 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
-    <group value="Tool_External Tools_Copyright" is_action="true" action_type="1" position="6">
+    <group value="Tool_External Tools_Copyright" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Tools" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Lint Cmake" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Tools" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Uncrustify" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Tools" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_CPPLint" is_action="true" action_type="1" position="3">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Tools" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Build Current" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Tools" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Test Current" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Tools" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Copyright" is_action="true" action_type="1" position="5">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Lint Cmake" is_action="true" action_type="1" position="7">
+    <group value="Tool_External Tools_Test Current (Retest until fail)" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Tools" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Lint Cmake" is_action="true" action_type="1" position="6">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_PCLint" is_action="true" action_type="1" position="8">
+    <group value="Tool_External Tools_Test Coverage Current" is_action="true" action_type="1" position="7">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Tools" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_PCLint" is_action="true" action_type="1" position="7">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_CPPLint" is_action="true" action_type="1" position="9">
+    <group value="Tool_External Tools_Build All" is_action="true" action_type="1" position="8">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Tools" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_PCLint (entire package)" is_action="true" action_type="1" position="8">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Uncrustify" is_action="true" action_type="1" position="10">
+    <group value="Tool_External Tools_Test All" is_action="true" action_type="1" position="9">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Tools" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Axivion" is_action="true" action_type="1" position="9">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Build Current" is_action="true" action_type="1" position="11">
+    <group value="Tool_External Tools_PCLint" is_action="true" action_type="1" position="10">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Tools" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_CPPLint" is_action="true" action_type="1" position="10">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Test Current" is_action="true" action_type="1" position="12">
+    <group value="Tool_External Tools_PCLint (entire package)" is_action="true" action_type="1" position="11">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Tools" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Uncrustify" is_action="true" action_type="1" position="11">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Test Current (Retest until fail)" is_action="true" action_type="1" position="13">
+    <group value="Tool_External Tools_Doxygen" is_action="true" action_type="1" position="12">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Tools" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Build Current" is_action="true" action_type="1" position="12">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Test Coverage Current" is_action="true" action_type="1" position="14">
+    <group value="Tool_External Tools_Axivion" is_action="true" action_type="1" position="13">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Tools" />
+      <path value="External Tools" />
+      <path value="External Tools" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Test Current" is_action="true" action_type="1" position="13">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Doxygen" is_action="true" action_type="1" position="15">
+    <group value="Tool_External Tools_Test Current (Retest until fail)" is_action="true" action_type="1" position="14">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Build All" is_action="true" action_type="1" position="16">
+    <group value="Tool_External Tools_Test Coverage Current" is_action="true" action_type="1" position="15">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Test All" is_action="true" action_type="1" position="17">
+    <group value="Tool_External Tools_Doxygen" is_action="true" action_type="1" position="16">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Build All" is_action="true" action_type="1" position="17">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Test All" is_action="true" action_type="1" position="18">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
@@ -77,12 +201,12 @@
     <action id="Tool_External Tools_Uncrustify" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Uncrustify.png" />
     <action id="Tool_External Tools_Test Coverage Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_CoveragePkg.png" />
     <action id="Tool_External Tools_Test Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_TestPkg.png" />
-    <action id="Tool_External Tools_CPPLint" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/CPPLint.png" />
     <action id="Tool_External Tools_Lint Cmake" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/LintCmake.png" />
+    <action id="Tool_External Tools_CPPLint" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/CPPLint.png" />
     <action id="Tool_External Tools_Build Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_BuildPkg.png" />
     <action id="Tool_External Tools_PCLint" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/PCLint.png" />
     <action id="Tool_External Tools_Test All" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_TestAll.png" />
-    <action id="Tool_External Tools_Copyright" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Copyright.png" />
     <action id="Tool_External Tools_Test Current (Retest until fail)" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/RetestUntilFail.png" />
+    <action id="Tool_External Tools_Copyright" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Copyright.png" />
   </component>
 </application>
