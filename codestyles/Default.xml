@@ -1,4 +1,4 @@
-<code_scheme name="Default">
+<code_scheme name="Default" version="173">
   <option name="RIGHT_MARGIN" value="99" />
   <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
   <CMakeCodeStyleSettings>
@@ -49,6 +49,7 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="ObjectiveC">
+    <option name="SPACE_AFTER_TYPE_CAST" value="false" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
