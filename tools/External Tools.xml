@@ -88,8 +88,8 @@
       <option name="WORKING_DIRECTORY" value="$CMakeCurrentBuildDir$" />
     </exec>
     <filter>
-      <option name="NAME" value="" />
-      <option name="DESCRIPTION" value="" />
+      <option name="NAME" value="No name" />
+      <option name="DESCRIPTION" />
       <option name="REGEXP" value=".*$FILE_PATH$:$LINE$\].*" />
     </filter>
   </tool>
@@ -99,5 +99,17 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
     </exec>
+  </tool>
+  <tool name="Axivion" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="ament_axivion" />
+      <option name="PARAMETERS" value="--package-root $CMakeCurrentBuildDir$/.. --compiler-definitions APEX_CERT DDS_RTI_CONNEXT_MICRO --include-directories /opt/rti_connext_micro/include --treat-as-package" />
+      <option name="WORKING_DIRECTORY" value="$CMakeCurrentBuildDir$/.." />
+    </exec>
+    <filter>
+      <option name="NAME" value="" />
+      <option name="DESCRIPTION" value="" />
+      <option name="REGEXP" value=".*$FILE_PATH$:$LINE$\].*" />
+    </filter>
   </tool>
 </toolSet>
