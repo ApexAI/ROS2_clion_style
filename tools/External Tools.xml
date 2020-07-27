@@ -107,8 +107,8 @@
       <option name="WORKING_DIRECTORY" value="$CMakeCurrentBuildDir$/.." />
     </exec>
     <filter>
-      <option name="NAME" value="" />
-      <option name="DESCRIPTION" value="" />
+      <option name="NAME" value="No name" />
+      <option name="DESCRIPTION" />
       <option name="REGEXP" value=".*$FILE_PATH$:$LINE$\].*" />
     </filter>
   </tool>
