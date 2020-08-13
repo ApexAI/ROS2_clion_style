@@ -1,11 +1,18 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
-      <component name="CMakeSettings">
-        <configurations>
-          <configuration CONFIG_NAME="Debug" />
-        </configurations>
-      </component>
+	<component name="CMakeSettings">
+	    <configurations>
+	      <configuration PROFILE_NAME="RelWithDebInfo" CONFIG_NAME="RelWithDebInfo" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=/opt/clion/apex_config/find_apex_toolchainfile.cmake" />
+	      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=/opt/clion/apex_config/find_apex_toolchainfile.cmake" />
+	      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=/opt/clion/apex_config/find_apex_toolchainfile.cmake" />
+	      <configuration PROFILE_NAME="Coverage" CONFIG_NAME="Coverage" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=/opt/clion/apex_config/find_apex_toolchainfile.cmake" />
+	      <configuration PROFILE_NAME="VectorCAST" CONFIG_NAME="VectorCAST" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=/opt/clion/apex_config/find_apex_toolchainfile.cmake" />
+	      <configuration PROFILE_NAME="Cert RelWithDebInfo" CONFIG_NAME="RelWithDebInfo" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=/opt/clion/apex_config/find_apex_toolchainfile.cmake -DAPEX_CERT=ON" />
+	      <configuration PROFILE_NAME="Cert Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=/opt/clion/apex_config/find_apex_toolchainfile.cmake -DAPEX_CERT=ON" />
+	      <configuration PROFILE_NAME="Cert VectorCAST" CONFIG_NAME="VectorCAST" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=/opt/clion/apex_config/find_apex_toolchainfile.cmake -DAPEX_CERT=ON" />
+	    </configurations>
+	  </component>
       <component name="MarkdownProjectSettings" wasCopied="true">
         <PreviewSettings splitEditorLayout="SPLIT" splitEditorPreview="PREVIEW" useGrayscaleRendering="false" zoomFactor="1.0" maxImageWidth="0" showGitHubPageIfSynced="false" allowBrowsingInPreview="false" synchronizePreviewPosition="true" highlightPreviewType="NONE" highlightFadeOut="5" highlightOnTyping="true" synchronizeSourcePosition="true" verticallyAlignSourceAndPreviewSyncPosition="true" showSearchHighlightsInPreview="false" showSelectionInPreview="true" openRemoteLinks="true" replaceUnicodeEmoji="false" lastLayoutSetsDefault="false">
           <PanelProvider>
