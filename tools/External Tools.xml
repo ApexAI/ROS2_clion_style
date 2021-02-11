@@ -112,4 +112,11 @@
       <option name="REGEXP" value=".*$FILE_PATH$:$LINE$.*" />
     </filter>
   </tool>
+  <tool name="VectorCAST coverage Current" description="Create VectorCAST coverage report on currently loaded package" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="_apex_clion_vc_coverage" />
+      <option name="PARAMETERS" value="$ProjectName$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
+    </exec>
+  </tool>
 </toolSet>
