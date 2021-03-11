@@ -90,7 +90,13 @@
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_VectorCAST coverage Current" is_action="true" action_type="1" position="18">
+    <group value="Tool_External Tools_Insert and verify test id(s) Current" is_action="true" action_type="1" position="18">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_VectorCAST coverage Current" is_action="true" action_type="1" position="19">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
@@ -110,6 +116,7 @@
     <action id="Tool_External Tools_PCLint" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/PCLint.png" />
     <action id="Tool_External Tools_PCLint (entire package)" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/PCLint.png" />
     <action id="Tool_External Tools_Copyright" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Copyright.png" />
+    <action id="Tool_External Tools_Insert and verify test id(s) Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Identify_test_uid.png" />
     <action id="Tool_External Tools_VectorCAST coverage Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/VC_CoveragePkg.png" />
   </component>
 </application>
