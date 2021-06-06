@@ -107,7 +107,7 @@
       <option name="WORKING_DIRECTORY" value="$CMakeCurrentBuildDir$" />
     </exec>
     <filter>
-      <option name="NAME" value="No name" />
+      <option name="NAME" />
       <option name="DESCRIPTION" />
       <option name="REGEXP" value=".*$FILE_PATH$:$LINE$.*" />
     </filter>
@@ -124,6 +124,13 @@
       <option name="COMMAND" value="identify_test_uid" />
       <option name="PARAMETERS" value="$FilePath$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="Allocation Analyzer" description="Run Alloc analyzer on current project + current target" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="allocation_analyzer" />
+      <option name="PARAMETERS" value="$ProjectName$ $CMakeCurrentTargetName$ --gui" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
 </toolSet>
