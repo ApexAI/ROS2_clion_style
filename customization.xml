@@ -102,6 +102,12 @@
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="Tool_External Tools_Allocation Analyzer" is_action="true" action_type="1" position="20">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <action id="Tool_External Tools_Axivion" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Axivion.png" />
     <action id="Tool_External Tools_Test Coverage Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_CoveragePkg.png" />
     <action id="Tool_External Tools_Test Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_TestPkg.png" />
@@ -118,5 +124,6 @@
     <action id="Tool_External Tools_Copyright" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Copyright.png" />
     <action id="Tool_External Tools_Insert and verify test id(s) Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Identify_test_uid.png" />
     <action id="Tool_External Tools_VectorCAST coverage Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/VC_CoveragePkg.png" />
+    <action id="Tool_External Tools_Allocation Analyzer" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Allocation_Analyzer.png" />
   </component>
 </application>
