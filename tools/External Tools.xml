@@ -133,4 +133,11 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
+  <tool name="Markdown linter" description="Run markdown linter in the root of gc" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$ProjectFileDir$/../../mkdocs/run_markdownlint.sh" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
 </toolSet>
