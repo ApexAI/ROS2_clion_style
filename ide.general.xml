@@ -1,0 +1,9 @@
+<application>
+  <component name="GeneralSettings">
+    <option name="confirmExit" value="false" />
+  </component>
+  <component name="Registry">
+    <entry key="debugger.watches.in.variables" value="false" />
+    <entry key="terminal.buffer.max.lines.count" value="10000" />
+  </component>
+</application>

@@ -1,0 +1,10 @@
+<keymap version="1" name="Default copy" parent="Default for XWin">
+  <action id="Build">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+    <keyboard-shortcut first-keystroke="windows" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="ctrl windows" />
+  </action>
+</keymap>

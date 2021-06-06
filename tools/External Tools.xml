@@ -1,0 +1,129 @@
+<toolSet name="External Tools">
+  <tool name="Copyright" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="ament_copyright " />
+      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="Lint Cmake" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="ament_lint_cmake" />
+      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="Uncrustify" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="ament_uncrustify " />
+      <option name="PARAMETERS" value="$FilePath$ --reformat" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="CPPLint" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="ament_cpplint" />
+      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="Build Current" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="colcon" />
+      <option name="PARAMETERS" value="build --packages-select $ProjectName$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
+    </exec>
+  </tool>
+  <tool name="Test Current" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="_apex_clion_test" />
+      <option name="PARAMETERS" value="$ProjectName$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
+    </exec>
+  </tool>
+  <tool name="Test Current (Retest until fail)" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="_apex_clion_test" />
+      <option name="PARAMETERS" value="$ProjectName$ 10" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
+    </exec>
+  </tool>
+  <tool name="Test Coverage Current" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="_apex_clion_coverage" />
+      <option name="PARAMETERS" value="$ProjectName$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
+    </exec>
+  </tool>
+  <tool name="Build All" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="colcon" />
+      <option name="PARAMETERS" value="build" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
+    </exec>
+  </tool>
+  <tool name="Test All" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="_apex_clion_test" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
+    </exec>
+  </tool>
+  <tool name="PCLint" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="ament_pclint" />
+      <option name="PARAMETERS" value="--package-root $CMakeCurrentBuildDir$/.. --include-directories /opt/rti_connext_micro/include -- $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$CMakeCurrentBuildDir$/.." />
+    </exec>
+    <filter>
+      <option name="NAME" value="No name" />
+      <option name="DESCRIPTION" />
+      <option name="REGEXP" value=".*$FILE_PATH$:$LINE$\].*" />
+    </filter>
+  </tool>
+  <tool name="PCLint (entire package)" description="Run PCLint on the currently loaded package" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="ctest" />
+      <option name="PARAMETERS" value="-V -L pclint" />
+      <option name="WORKING_DIRECTORY" value="$CMakeCurrentBuildDir$" />
+    </exec>
+    <filter>
+      <option name="NAME" value="No name" />
+      <option name="DESCRIPTION" />
+      <option name="REGEXP" value=".*$FILE_PATH$:$LINE$\].*" />
+    </filter>
+  </tool>
+  <tool name="Doxygen" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="_apex_clion_doxygen" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
+    </exec>
+  </tool>
+  <tool name="Axivion" description="Run Axivion on currently loaded package" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="ctest" />
+      <option name="PARAMETERS" value="-V -L axivion" />
+      <option name="WORKING_DIRECTORY" value="$CMakeCurrentBuildDir$" />
+    </exec>
+    <filter>
+      <option name="NAME" />
+      <option name="DESCRIPTION" />
+      <option name="REGEXP" value=".*$FILE_PATH$:$LINE$.*" />
+    </filter>
+  </tool>
+  <tool name="VectorCAST coverage Current" description="Create VectorCAST coverage report on currently loaded package" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="_apex_clion_vc_coverage" />
+      <option name="PARAMETERS" value="$ProjectName$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
+    </exec>
+  </tool>
+  <tool name="Insert and verify test id(s) Current" description="Insert and verify the unique test id" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="identify_test_uid" />
+      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>

@@ -1,0 +1,32 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.xml</mask>
+    <mask>*.cp</mask>
+    <mask>*.inl</mask>
+    <mask>*.ino</mask>
+    <mask>*.pch</mask>
+    <mask>*.c++</mask>
+    <mask>*.icc</mask>
+    <mask>*.ipp</mask>
+    <mask>*.h++</mask>
+    <mask>*.i</mask>
+    <mask>*.m</mask>
+    <mask>*.cxx</mask>
+    <mask>*.hh</mask>
+    <mask>*.hp</mask>
+    <mask>*.hxx</mask>
+    <mask>*.ii</mask>
+    <mask>*.tcc</mask>
+    <mask>*.mm</mask>
+    <mask>*.cc</mask>
+    <mask>*.h</mask>
+    <mask>*.c</mask>
+    <mask>*.hpp</mask>
+    <mask>*.cpp</mask>
+  </component>
+</application>
