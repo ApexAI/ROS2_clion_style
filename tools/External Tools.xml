@@ -107,7 +107,7 @@
       <option name="WORKING_DIRECTORY" value="$CMakeCurrentBuildDir$" />
     </exec>
     <filter>
-      <option name="NAME" />
+      <option name="NAME" value="No name" />
       <option name="DESCRIPTION" />
       <option name="REGEXP" value=".*$FILE_PATH$:$LINE$.*" />
     </filter>
@@ -133,10 +133,10 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
-  <tool name="Markdown linter" description="Run markdown linter in the root of gc" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="Markdown linter" description="Run markdown linter on the current file" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$ProjectFileDir$/../../mkdocs/run_markdownlint.sh" />
-      <option name="PARAMETERS" value="" />
+      <option name="COMMAND" value="markdownlint" />
+      <option name="PARAMETERS" value="-c ../../.markdownlint.yaml $FilePath$" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
