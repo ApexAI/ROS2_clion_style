@@ -114,6 +114,12 @@
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="Tool_External Tools_Markdown linter fix" is_action="true" action_type="1" position="22">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <action id="Tool_External Tools_Axivion" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Axivion.png" />
     <action id="Tool_External Tools_Test Coverage Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_CoveragePkg.png" />
     <action id="Tool_External Tools_Test Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_TestPkg.png" />
@@ -132,5 +138,6 @@
     <action id="Tool_External Tools_VectorCAST coverage Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/VC_CoveragePkg.png" />
     <action id="Tool_External Tools_Allocation Analyzer" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Allocation_Analyzer.png" />
     <action id="Tool_External Tools_Markdown linter" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Markdown_Linter.png" />
+    <action id="Tool_External Tools_Markdown linter fix" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Markdown_Linter_Fix.png" />
   </component>
 </application>
