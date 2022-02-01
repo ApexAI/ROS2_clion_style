@@ -72,7 +72,7 @@
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Doxygen" is_action="true" action_type="1" position="15">
+    <group value="Tool_External Tools_Doc_Linters" is_action="true" action_type="1" position="15">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
@@ -126,7 +126,7 @@
     <action id="Tool_External Tools_Lint Cmake" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/LintCmake.png" />
     <action id="Tool_External Tools_Test All" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_TestAll.png" />
     <action id="Tool_External Tools_Test Current (Retest until fail)" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/RetestUntilFail.png" />
-    <action id="Tool_External Tools_Doxygen" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Doxygen.png" />
+    <action id="Tool_External Tools_Doc_Linters" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Doc_Linters.png" />
     <action id="Tool_External Tools_Build All" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_BuildAll.png" />
     <action id="Tool_External Tools_Uncrustify" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Uncrustify.png" />
     <action id="Tool_External Tools_CPPLint" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/CPPLint.png" />
