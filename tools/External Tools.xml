@@ -122,7 +122,7 @@
   <tool name="Insert and verify test id(s) Current" description="Insert and verify the unique test id" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="identify_test_uid" />
-      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="PARAMETERS" value="insert $FilePath$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
