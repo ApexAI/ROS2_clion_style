@@ -93,7 +93,7 @@
       <option name="REGEXP" value=".*$FILE_PATH$:$LINE$\].*" />
     </filter>
   </tool>
-  <tool name="Doc linters" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="Doc linters" description="Run apex_doc_lint" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="../.doc_scripts/apex_doc_lint" />
       <option name="PARAMETERS" value="--ci --code-block --private-links --symlinks --spelling --md" />
