@@ -1,8 +1,4 @@
 <application>
-  <component name="DefaultFont">
-    <option name="FONT_SIZE" value="14" />
-    <option name="FONT_FAMILY" value="DejaVu Sans Mono" />
-  </component>
   <component name="EditorSettings">
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
