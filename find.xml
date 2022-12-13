@@ -28,5 +28,7 @@
     <mask>*.c</mask>
     <mask>*.hpp</mask>
     <mask>*.cpp</mask>
+    <mask>*.txt</mask>
+    <mask>*.py</mask>
   </component>
 </application>
