@@ -1,7 +1,16 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="AMENT_IGNORE" type="AUTO_DETECTED" />
+      <mapping pattern="launch_ros" type="AUTO_DETECTED" />
+      <mapping pattern="ros2topic" type="AUTO_DETECTED" />
+      <mapping pattern="Doxyfile" type="AUTO_DETECTED" />
+      <mapping ext="msg" type="PLAIN_TEXT" />
       <mapping ext="idl" type="PLAIN_TEXT" />
+      <mapping ext="srv" type="PLAIN_TEXT" />
+      <mapping ext="db3-shm" type="SQL" />
+      <mapping ext="db3-wal" type="SQL" />
+      <mapping ext="em" type="BuildoutCfg" />
     </extensionMap>
   </component>
 </application>

@@ -1,0 +1,13 @@
+<application>
+  <component name="GraziConfig">
+    <option name="checkingContext">
+      <CheckingContext>
+        <option name="enabledLanguages">
+          <set>
+            <option value="Doxygen" />
+          </set>
+        </option>
+      </CheckingContext>
+    </option>
+  </component>
+</application>

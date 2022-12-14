@@ -1,0 +1,9 @@
+<application>
+  <component name="DefaultFont">
+    <option name="VERSION" value="1" />
+    <option name="FONT_SIZE" value="15" />
+    <option name="FONT_SIZE_2D" value="15.0" />
+    <option name="FONT_FAMILY" value="DejaVu Sans Mono" />
+    <option name="FONT_REGULAR_SUB_FAMILY" value="Book" />
+  </component>
+</application>
