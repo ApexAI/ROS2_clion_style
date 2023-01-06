@@ -1,0 +1,17 @@
+<profile version="1.0">
+  <option name="myName" value="ApexAI Default" />
+  <inspection_tool class="ClangTidy" enabled="true" level="WARNING" enabled_by_default="false">
+    <scope name="Project Source Files" level="WARNING" enabled="true" />
+  </inspection_tool>
+  <inspection_tool class="Clazy" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="Misra" enabled="true" level="WARNING" enabled_by_default="false">
+    <scope name="Project Source Files" level="WARNING" enabled="true" />
+  </inspection_tool>
+  <inspection_tool class="OCUnusedConcept" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="OCUnusedGlobalDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="OCUnusedIncludeDirective" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="OCUnusedMacro" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="OCUnusedStruct" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="OCUnusedTemplateParameter" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="OCUnusedTypeAlias" enabled="false" level="WARNING" enabled_by_default="false" />
+</profile>
