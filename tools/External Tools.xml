@@ -64,31 +64,10 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
     </exec>
   </tool>
-  <tool name="Test Coverage Current" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="_apex_clion_coverage" />
-      <option name="PARAMETERS" value="$ProjectName$" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
-    </exec>
-  </tool>
-  <tool name="Build All" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="colcon" />
-      <option name="PARAMETERS" value="build" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
-    </exec>
-  </tool>
-  <tool name="Test All" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="_apex_clion_test" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
-    </exec>
-  </tool>
   <tool name="PCLint" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="true" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="ament_pclint" />
-      <option name="PARAMETERS" value="--package-root $CMakeCurrentBuildDir$/.. --include-directories /opt/rti_connext_micro/include -- $FilePath$" />
+      <option name="PARAMETERS" value="--package-root $CMakeCurrentBuildDir$/.. -- $FilePath$" />
       <option name="WORKING_DIRECTORY" value="$CMakeCurrentBuildDir$/.." />
     </exec>
     <filter>
