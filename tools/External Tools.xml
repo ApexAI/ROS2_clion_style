@@ -50,6 +50,14 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
     </exec>
   </tool>
+  <tool name="Build Up To Current" showInMainMenu="false" showInEditor="false"
+        showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="colcon" />
+      <option name="PARAMETERS" value="build --packages-up-to $ProjectName$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/.." />
+    </exec>
+  </tool>
   <tool name="Test Current" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="_apex_clion_test" />

@@ -60,43 +60,49 @@
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Test Current" is_action="true" action_type="1" position="14">
+    <group value="Tool_External Tools_Build Up To Current" is_action="true" action_type="1" position="14">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Test Current (Retest until fail)" is_action="true" action_type="1" position="15">
+    <group value="Tool_External Tools_Test Current" is_action="true" action_type="1" position="15">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Insert and verify test id(s) Current" is_action="true" action_type="1" position="16">
+    <group value="Tool_External Tools_Test Current (Retest until fail)" is_action="true" action_type="1" position="16">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_VectorCAST coverage Current" is_action="true" action_type="1" position="17">
+    <group value="Tool_External Tools_Insert and verify test id(s) Current" is_action="true" action_type="1" position="17">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Allocation Analyzer" is_action="true" action_type="1" position="18">
+    <group value="Tool_External Tools_VectorCAST coverage Current" is_action="true" action_type="1" position="18">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Markdown linter" is_action="true" action_type="1" position="19">
+    <group value="Tool_External Tools_Allocation Analyzer" is_action="true" action_type="1" position="19">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Markdown linter fix" is_action="true" action_type="1" position="20">
+    <group value="Tool_External Tools_Markdown linter" is_action="true" action_type="1" position="20">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_External Tools_Markdown linter fix" is_action="true" action_type="1" position="21">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
@@ -110,6 +116,7 @@
     <action id="Tool_External Tools_Uncrustify" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Uncrustify.png" />
     <action id="Tool_External Tools_CPPLint" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/CPPLint.png" />
     <action id="Tool_External Tools_Build Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_BuildPkg.png" />
+    <action id="Tool_External Tools_Build Up To Current" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Colcon_BuildUpTo.png" />
     <action id="Tool_External Tools_PCLint" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/PCLint.png" />
     <action id="Tool_External Tools_PCLint (entire package)" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/PCLint.png" />
     <action id="Tool_External Tools_Copyright" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Copyright.png" />
