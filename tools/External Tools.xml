@@ -21,18 +21,10 @@
     </exec>
   </tool>
   <tool name="Clang Reformat"
-        description="Run ament_clang_format with --reformat option and global .clang-format settings" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+        description="Run ament_clang_format with --reformat option and local or global .clang-format config" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="ament_clang_format" />
-      <option name="PARAMETERS" value="$FilePath$ --reformat" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
-    </exec>
-  </tool>
-  <tool name="Clang Reformat Local"
-        description="Run ament_clang_format with --reformat option and .clang-format settings from current project folder" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="ament_clang_format" />
-      <option name="PARAMETERS" value="$FilePath$ --config $CMakeCurrentLocalBuildDir$/../.clang-format --reformat" />
+      <option name="COMMAND" value="_apex_clion_clang_reformat" />
+      <option name="PARAMETERS" value="$FilePath$ $CMakeCurrentLocalBuildDir$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>

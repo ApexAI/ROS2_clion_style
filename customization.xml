@@ -48,7 +48,7 @@
       <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Tool_External Tools_Clang Reformat Local" is_action="true" action_type="1" position="12">
+    <group value="Tool_External Tools_Clang Reformat" is_action="true" action_type="1" position="12">
       <path value="root" />
       <path value="Main Toolbar" />
       <path value="Toolbar Run Actions" />
@@ -126,6 +126,5 @@
     <action id="Tool_External Tools_Markdown linter" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Markdown_Linter.png" />
     <action id="Tool_External Tools_Markdown linter fix" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Markdown_Linter_Fix.png" />
     <action id="Tool_External Tools_Clang Reformat" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Clang_Format.png" />
-    <action id="Tool_External Tools_Clang Reformat Local" icon="$APPLICATION_CONFIG_DIR$/settingsRepository/repository/icons/Clang_Format.png" />
   </component>
 </application>
