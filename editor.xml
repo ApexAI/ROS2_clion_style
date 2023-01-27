@@ -1,5 +1,7 @@
 <application>
+  <component name="DaemonCodeAnalyzerSettings" profile="ApexAI Default" />
   <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
     <option name="IS_WHEEL_FONTCHANGE_PERSISTENT" value="true" />
